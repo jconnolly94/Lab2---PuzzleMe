@@ -477,43 +477,43 @@
 
         #endregion
 
-        private TabControl tabview;
-        private TabPage tabFree;
-        private NumericUpDown numFreeMaxChar;
+        public TabControl tabview;
+        public TabPage tabFree;
+        public NumericUpDown numFreeMaxChar;
         private Label lblFreeMax;
         private Label lblQuestion;
-        private TabPage tabTF;
+        public TabPage tabTF;
         private GroupBox grpTFAns;
-        private RadioButton rdoFalse;
-        private RadioButton rdoTrue;
+        public RadioButton rdoFalse;
+        public RadioButton rdoTrue;
         private Label lblTFQuestion;
-        private TabPage tabMulti;
+        public TabPage tabMulti;
         private GroupBox grpMultiAnswer;
-        private TextBox txtMultiFour;
-        private TextBox txtMultiThree;
-        private TextBox txtMultiTwo;
-        private TextBox txtMultiOne;
-        private TabPage tabMath;
+        public TextBox txtMultiFour;
+        public TextBox txtMultiThree;
+        public TextBox txtMultiTwo;
+        public TextBox txtMultiOne;
+        public TabPage tabMath;
         private Button btnSaveQuiz;
-        private ListBox lstQuestions;
-        private RadioButton rdoMultiFour;
-        private RadioButton rdoMultiThree;
-        private RadioButton rdoMultiTwo;
-        private RadioButton rdoMultiOne;
+        public ListBox lstQuestions;
+        public RadioButton rdoMultiFour;
+        public RadioButton rdoMultiThree;
+        public RadioButton rdoMultiTwo;
+        public RadioButton rdoMultiOne;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label lblTotalMarks;
         private Label lblNumQs;
-        private TextBox txtModule;
-        private TextBox txtDesc;
-        private TextBox txtInstruction;
-        private TextBox txtMarks;
-        private TextBox txtNumQs;
+        public TextBox txtModule;
+        public TextBox txtDesc;
+        public TextBox txtInstruction;
+        public TextBox txtMarks;
+        public TextBox txtNumQs;
         private Button btnUpdateQ;
-        private TextBox txtQuestion;
+        public TextBox txtQuestion;
         private Button btnDelete;
         private Label lblQMarks;
-        private NumericUpDown numQMarks;
+        public NumericUpDown numQMarks;
     }
 }

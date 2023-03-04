@@ -58,8 +58,8 @@ namespace Lab2___PuzzleMe
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            EditQuiz edit = new EditQuiz(selectedQuiz);
-            edit.ShowDialog();
+            EditQuizController edit = new EditQuizController(selectedQuiz);
+            //edit.ShowDialog();
         }
     }
 }

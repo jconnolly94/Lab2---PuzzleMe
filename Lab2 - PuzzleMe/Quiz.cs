@@ -54,7 +54,7 @@ namespace Lab2___PuzzleMe
 
         public int getTotalMarks()
         {
-            return this.totalMarks;
+            return questions.Sum(m => m.marks);
         }
 
         public int getNumQuestions()
@@ -70,7 +70,9 @@ namespace Lab2___PuzzleMe
 
         public void updateQuestion(int index, Question q)
         {
-            questions.Where(i => questions.IndexOf(i) == index);
+            if(index < questions.Count)
+                questions.RemoveAt(index);
+            questions.Insert(index, q);
         }
 
         public void removeQuestion(int index)

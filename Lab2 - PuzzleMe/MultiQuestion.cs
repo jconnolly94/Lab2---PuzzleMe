@@ -8,7 +8,7 @@ namespace Lab2___PuzzleMe
 {
     internal class MultiQuestion : Question
     {
-        Dictionary<string, bool> answers;
+        public Dictionary<string, bool> answers { get; set; }
         public MultiQuestion(String QuestionString, int marks, Dictionary<string, bool>answers): base(QuestionString, marks)
         {
             this.answers = answers;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab2___PuzzleMe
 {
+    // Model
     public abstract class Question
     {
         protected String QuestionString { get; set; }
